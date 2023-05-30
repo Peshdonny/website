@@ -55,7 +55,7 @@ ROOT_URLCONF = 'pesh.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['blog/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
